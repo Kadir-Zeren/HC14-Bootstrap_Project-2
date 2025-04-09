@@ -109,3 +109,67 @@
     padding: 0.1rem !important;
     width: 3rem !important;
 }
+/*! ABOUT */
+section#about{
+    
+    background-color: var(--secondary-color);
+}
+
+.image-container{
+    /* border: 2px solid red; */
+    position: relative;
+
+}
+.image-container img{
+    width: 100%;
+
+}
+
+
+.about-image-info{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.509),
+        rgba(188, 108, 37, 1)
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section#about button{
+    background-color: var(--primary-color);
+    border: none;
+}
+
+/*! PEOPLE */
+
+section#people{
+    background-color: var(--section-color);
+}
+section#people .container{
+    background-color: var(--secondary-color);
+}
+section#people .card{
+    background-color: var(--primary-color);
+    transition: all .5s;
+    overflow: hidden;
+}
+section#people .card:hover{
+    transform: scale(1.05);
+}
+section#people .card img{
+    transition: all 0.5s;
+}
+section#people .card img:hover{
+    transform: scale(1.1);
+}
+
+section#people i{
+    transition: all .5s;
+}
+section#people i:hover{
+    opacity: .5;
+}
